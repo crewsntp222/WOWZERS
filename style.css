@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Cavalcade";
+  src: url(CursedCavalcade-xRxwm.ttf);
+}
+@font-face {
+  font-family: "Cool";
+  src: url(Coolvetica\ Rg\ Cond.otf);
+}
+
+
+.header { 
+    color: black;
+    text-align: center;
+    font-size: clamp(1.8rem, calc(7vw + 1rem), 10rem);
+    -webkit-text-stroke: .2px white;
+    font-family: "Cavalcade";
+}
+
+audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);}
+
+body {
+  width: auto;
+  height: auto;
+  background: url(bkg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+a {
+  font-family: "Cool";
+  font-size:  clamp(1.2rem, calc(4vw + .7rem), 7rem);
+  justify-content: center;
+  display: flex;
+  margin-bottom: clamp(0.1rem, calc(.5vw + .09rem), .9rem);
+}
+
+a:hover {
+  filter: drop-shadow(4px 6px 6px #000000);
+  color: red;
+}
+
+.box {
+  width: clamp(1.2rem, calc(4vw + .7rem), 7rem);
+  background-color: black;
+  padding-bottom: clamp(0.2rem, calc(1vw + .18rem), 1.8rem);
+  padding-left: clamp(1.2rem, calc(4vw + .7rem), 7rem);
+  padding-right: clamp(1.2rem, calc(4vw + .7rem), 7rem);
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.gimg {
+  width: 50%;
+  width: clamp(2.4rem, calc(8vw + 2.1rem), 14rem);
+  height: clamp(2.4rem, calc(8vw + 2.1rem), 14rem);
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+}
+
+.audio {
+  justify-content: center;
+  display: flex;
+}
+
+.links {
+  display: flex;
+  margin-top: clamp(2.4rem, calc(8vw + 2.1rem), 14rem);
+  row-gap: clamp(2.4rem, calc(8vw + 2.1rem), 14rem);
+  column-gap: clamp(2.4rem, calc(8vw + 2.1rem), 14rem);
+  overflow: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
